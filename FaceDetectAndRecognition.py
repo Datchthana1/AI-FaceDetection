@@ -14,7 +14,7 @@ clf = cv2.CascadeClassifier(str(cascade_path))
 counter = 0
 face_match = False
 
-reference_img = cv2.imread("C:/Users/me095/OneDrive/Desktop/one file/WorkOnly/All Code/Python/AI/AI-FaceDetection/Panita.jpg")
+reference_img = cv2.imread("C:/Users/me095/OneDrive/Desktop/one file/WorkOnly/All Code/Python/AI/AI-FaceDetection/Dechthana.jpg")
 reference_img2 = reference_img.copy()
 
 def check_face(frame):
